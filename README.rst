@@ -1,9 +1,10 @@
 pytypo
 ===========
-|travis| |coveralls| |landscape| |downloads| |pyversion| |version| |license|
+|travis| |coveralls| |landscape| |pyversion| |version| |license|
 
 pytypo corrects English spelling mistakes.
 That feature is based on TYPO CORPUS (http://luululu.com/tweet/)
+and Wikipedia (https://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings/For_machines)
 
 And this module normalizes also lengthened English expression having repeating letters.
 (e.g., this module converts "cooooooooooooooollllllllllllll" to "cool")
@@ -93,10 +94,6 @@ License
 .. |landscape| image:: https://landscape.io/github/ikegami-yukino/pytypo/master/landscape.svg?style=flat
    :target: https://landscape.io/github/ikegami-yukino/pytypo/master
    :alt: Code Health
-
-.. |downloads| image:: https://img.shields.io/pypi/dm/pytypo.svg
-    :target: http://pypi.python.org/pypi/pytypo/
-    :alt: downloads
 
 .. |pyversion| image:: https://img.shields.io/pypi/pyversions/pytypo.svg
 
